@@ -1,0 +1,21 @@
+.consultation {
+    min-height: 680px;
+    padding: 100px 0 92px 0;
+    background: url(../../img/consultation.jpg) center (center/cover) no-repeat;
+    @include mobile {
+        padding: 40px 0 30px 0;
+        min-height: 450px;
+    }
+    &__descr {
+        font-weight: 500;
+        font-size: 20px;
+        color: #fff;
+        line-height: 30px;
+        @include mobile {
+            font-size: 14px;
+            line-height: 15px;
+            text-align: center;
+
+        }
+    }
+}
